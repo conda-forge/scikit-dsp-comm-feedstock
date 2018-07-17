@@ -21,7 +21,6 @@ requirements:
   host:
     - pip
     - python
-    - setuptools
   run:
     - python
     - numpy
@@ -35,7 +34,7 @@ test:
     - sk_dsp_comm
 
 about:
-  home: http://github.com/simplejson/simplejson
+  home: https://github.com/mwickert/scikit-dsp-comm
   license: BSD-3-Clause
   summary: 'DSP and Comm package.'
 
