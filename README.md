@@ -5,7 +5,7 @@ Home: https://github.com/mwickert/scikit-dsp-comm
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: DSP and Comm package.
 
