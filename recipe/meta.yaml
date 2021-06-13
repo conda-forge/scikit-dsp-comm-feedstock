@@ -1,6 +1,6 @@
 {% set name = "scikit-dsp-comm" %}
-{% set version = "1.1.0" %}
-{% set sha256 = "d832245abbd52c912d228b3ac4559f89d35d1ca2f881d9da620b96972727debf" %}
+{% set version = "2.0.0" %}
+{% set sha256 = "2b4be20c48f4c01eb99ff789b414f8400f9471eb19e75337871578291c2bf4bb" %}
 
 package:
   name: {{ name|lower }}
