@@ -1,6 +1,6 @@
 {% set name = "scikit-dsp-comm" %}
-{% set version = "2.0.1" %}
-{% set sha256 = "e563fcfe9ef25cd3538e2e8922c47bea48e5645c14fe1bba9366601d73a705bc" %}
+{% set version = "2.0.2" %}
+{% set sha256 = "69df4efd130bea50b5c8b545300d124d2239a81c8b0bd2af2ffd6f0e7143eafc" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
