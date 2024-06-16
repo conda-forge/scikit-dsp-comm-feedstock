@@ -1,6 +1,6 @@
 {% set name = "scikit-dsp-comm" %}
-{% set version = "2.0.3" %}
-{% set sha256 = "1cca21ba36bc78ae59cd923cd58564e484a1feba7b20dfd95ff2acdb34c24971" %}
+{% set version = "2.0.4" %}
+{% set sha256 = "5925b878241c7ed95f2ecdc62f88a16e2bc54f1881553a33d2fac8827b854c5e" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
